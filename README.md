@@ -14,8 +14,8 @@
 
 <table>
   <tr>
-    <td width="50%" align="center"><img src="docs/images/pcb-front-render.png" alt="KiCad 3D render of the component side" width="100%"><br><sub>Front · Component side</sub></td>
-    <td width="50%" align="center"><img src="docs/images/pcb-back-render.png" alt="KiCad 3D render of the illustrated rear silkscreen" width="100%"><br><sub>Back · Feldgeist artwork</sub></td>
+    <td width="50%" align="center"><img src="docs/images/3D_RENDER_FRONT.png" alt="KiCad 3D render of the component side" width="100%"><br><sub>Front · Component side</sub></td>
+    <td width="50%" align="center"><img src="docs/images/3D_RENDER_BACK.png" alt="KiCad 3D render of the illustrated rear silkscreen" width="100%"><br><sub>Back · Feldgeist artwork</sub></td>
   </tr>
 </table>
 
@@ -71,8 +71,8 @@ The layout is the result of several iterations of component selection, placement
 
 <table>
   <tr>
-    <td width="50%" align="center"><img src="docs/images/pcb-front-copper.png" alt="Front copper layout" width="100%"><br><sub>Front copper · F.Cu</sub></td>
-    <td width="50%" align="center"><img src="docs/images/pcb-back-copper.png" alt="Back copper layout" width="100%"><br><sub>Back copper · B.Cu</sub></td>
+    <td width="50%" align="center"><img src="docs/images/F_CU_CLEAN.png" alt="Front copper layout" width="100%"><br><sub>Front copper · F.Cu</sub></td>
+    <td width="50%" align="center"><img src="docs/images/B_CU_CLEAN.png" alt="Back copper layout" width="100%"><br><sub>Back copper · B.Cu</sub></td>
   </tr>
 </table>
 
@@ -81,7 +81,7 @@ The layout is the result of several iterations of component selection, placement
 
 | Front overview | Back overview |
 | --- | --- |
-| ![Front layout with other layers visible](docs/images/pcb-front-overview.png) | ![Back layout with other layers visible](docs/images/pcb-back-overview.png) |
+| ![Front layout with other layers visible](docs/images/F_CU.png) | ![Back layout with other layers visible](docs/images/B_CU.png) |
 
 </details>
 
@@ -94,11 +94,11 @@ These screenshots document the earlier engineering design. Some sheet headings a
 
 | System overview | Microcontroller |
 | --- | --- |
-| ![Archived system overview](docs/images/schematic-overview.png) | ![Archived MCU schematic](docs/images/schematic-mcu.png) |
+| ![Archived system overview](docs/images/SCHEMATIC_MAIN.png) | ![Archived MCU schematic](docs/images/SCHEMATIC_MCU.png) |
 
 | Peripherals | Power |
 | --- | --- |
-| ![Archived peripheral schematic](docs/images/schematic-peripherals.png) | ![Archived power schematic](docs/images/schematic-power.png) |
+| ![Archived peripheral schematic](docs/images/SCHEMATIC_PERIPHERALS.png) | ![Archived power schematic](docs/images/SCHEMATIC_POWER.png) |
 
 </details>
 
