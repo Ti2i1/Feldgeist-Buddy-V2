@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ESD441DPLR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-11-25-12:50:28)
+    (mountForm default
+        (footprintRef "ESD441DPLR")
+        (spec "System")
+    )
+)

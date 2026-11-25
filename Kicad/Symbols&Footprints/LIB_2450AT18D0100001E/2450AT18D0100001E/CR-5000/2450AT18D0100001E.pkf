@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "2450AT18D0100001E"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "2450AT18D0100001E")
+        (spec "default")
+    )
+)

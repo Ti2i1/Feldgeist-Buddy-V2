@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS631000DRLR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS631000DRLR" (!) = "", "SOTFL50P160X60-8N", "SO Transistor Flat Lead", "595-TPS631000DRLR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D", "Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter", "https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265", "0.6 mm"
+END_PART
+
+END.

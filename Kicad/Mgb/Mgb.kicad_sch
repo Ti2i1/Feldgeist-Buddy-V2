@@ -1,0 +1,287 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6ee31489-e8fc-4a89-a2f1-1a1c3f341cad")
+	(paper "A4")
+	(title_block
+		(title "Gun Buddy V2")
+		(date "2026-10-05")
+		(rev "A")
+		(company "NYRA")
+		(comment 1 "Compact Handheld Range Logger")
+		(comment 2 "ESP32-S3-MINI-1 · 2.4 GHz Wi-Fi + Bluetooth LE · USB-C / Pogo")
+		(comment 3 "Prototype / Engineering Revision A")
+		(comment 4 "Designed by Ti2i.3 (Tizian)")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 10.16 10.16)
+		(end 287.02 200.2716)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f5b368db-e9a6-48b2-9eba-16bb74afd1d1")
+	)
+	(text "Compact handheld platform | USB-C + Pogo | Wi-Fi + BLE | Round PCB Ø42.5 mm"
+		(exclude_from_sim no)
+		(at 143.256 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 150 160 175 1)
+			)
+		)
+		(uuid "03cb980e-9639-4215-bb14-f67052dfa265")
+	)
+	(text "1.28in Round IPS / 240 × 240\nGC9A01A / 4-Wire SPI\nCST816D Capacitive Touch / I2C\nPWM Backlight Control"
+		(exclude_from_sim no)
+		(at 92.202 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 205 210 220 1)
+			)
+		)
+		(uuid "44e5bd04-0b6b-4334-8644-651c8bc71f0d")
+	)
+	(text "GUN BUDDY V2"
+		(exclude_from_sim no)
+		(at 143.256 42.926 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 1.2)
+				(bold yes)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "58ce0dce-0596-4b32-b132-2553ab114162")
+	)
+	(text "User Button + Status LED\nPower Switch / BOOT / RESET\nExternal I2C Header\nUART Service Header"
+		(exclude_from_sim no)
+		(at 165.1 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 205 210 220 1)
+			)
+		)
+		(uuid "5a530391-157a-4ea4-9442-006cdd9d6add")
+	)
+	(text "USB-C PROGRAMMING | USB SERIAL/JTAG | UART RECOVERY | TWO I2C BUSES"
+		(exclude_from_sim no)
+		(at 116.078 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(color 150 160 175 1)
+			)
+		)
+		(uuid "a2d09227-d39d-4eb0-91de-c9425bd0651f")
+	)
+	(text "ESP32-S3-MINI-1\nDual-Core MCU / Wi-Fi + Bluetooth LE\nIntegrated Flash + 40 MHz Crystal\nInternal RTC Slow Clock\nUSB Serial/JTAG / UART Programming\nBOOT / RESET"
+		(exclude_from_sim no)
+		(at 172.212 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 205 210 220 1)
+			)
+		)
+		(uuid "b1931425-2b0f-4949-b87d-8fae32c1f1d0")
+	)
+	(text "USB-C / Pogo Power Input\nBQ25185 Charger + Power Path\nTPS631000 Buck-Boost / 3.3 V\nLi-Po Battery / NTC Input\nBattery Voltage Measurement"
+		(exclude_from_sim no)
+		(at 91.44 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 205 210 220 1)
+			)
+		)
+		(uuid "cc79ab38-7984-4336-beca-cb3db65cd7d3")
+	)
+	(text "SYSTEM ARCHITECTURE  /  REV A"
+		(exclude_from_sim no)
+		(at 143.256 49.276 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+				(color 150 160 175 1)
+			)
+		)
+		(uuid "d7056cad-61fa-4cde-9d04-68ea33da4657")
+	)
+	(text "LSM6DSV32X 6-Axis IMU\nMotion / Wake-Up / Interrupts\nIntegrated Temperature Sensor\nAnalog Microphone / ADC"
+		(exclude_from_sim no)
+		(at 128.524 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 205 210 220 1)
+			)
+		)
+		(uuid "e353abda-faa4-4926-a45e-17f7858d3231")
+	)
+	(sheet
+		(at 149.86 66.04)
+		(size 66.04 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.45)
+			(type solid)
+			(color 50 150 255 1)
+		)
+		(fill
+			(color 50 150 255 0.08)
+		)
+		(uuid "0d1fa1ec-ceac-45f9-a973-ba0ab4338912")
+		(property "Sheetname" "MCU"
+			(at 165.1 70.612 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.5)
+					(bold yes)
+					(color 50 150 255 1)
+				)
+			)
+		)
+		(property "Sheetfile" "Mcu.kicad_sch"
+			(at 149.86 99.6346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mgb"
+				(path "/6ee31489-e8fc-4a89-a2f1-1a1c3f341cad"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 66.04)
+		(size 66.04 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.45)
+			(type solid)
+			(color 255 170 0 1)
+		)
+		(fill
+			(color 255 170 0 0.08)
+		)
+		(uuid "594e8810-e547-4525-baa6-43dcf25d4e8a")
+		(property "Sheetname" "POWER"
+			(at 88.646 70.612 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.5)
+					(bold yes)
+					(color 255 170 0 1)
+				)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 73.66 99.6346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mgb"
+				(path "/6ee31489-e8fc-4a89-a2f1-1a1c3f341cad"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 111.76)
+		(size 142.24 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.45)
+			(type solid)
+			(color 0 200 150 1)
+		)
+		(fill
+			(color 0 200 150 0.07)
+		)
+		(uuid "cd25b50b-be9f-4d79-ba13-565e10a47407")
+		(property "Sheetname" "PERIPHERALS"
+			(at 89.408 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.5)
+					(bold yes)
+					(color 0 200 150 1)
+				)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 73.66 150.4346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mgb"
+				(path "/6ee31489-e8fc-4a89-a2f1-1a1c3f341cad"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

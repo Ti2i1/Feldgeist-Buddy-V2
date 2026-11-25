@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_19063521"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-25-12:50:28)
+    (utime 2024-11-25-12:50:28)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ESD441DPLR")
+)
+
+
+(pinAssign "ECS_19063521"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-25-12:50:28)
+    (utime 2024-11-25-12:50:28)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19063521")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ESD441DPLR")
+)
+
+
+(part "ESD441DPLR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-11-25-12:50:28)
+    (utime 2024-11-25-12:50:28)
+    (packageRef "ESD441DPLR")
+    (pinAssignRef "ECS_19063521")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "ESD Suppressors / TVS Diodes 1-pF, 5.5-V, 30-KV ESD protection device in 0201 package 2-X2SON -40 to 125")
+    (property "Mouser_Part_Number" "595-ESD441DPLR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D")
+    (property "Manufacturer_Name" "Texas Instruments")
+    (property "Manufacturer_Part_Number" "ESD441DPLR")
+    (property "Datasheet_Link" "https://www.ti.com/lit/ds/symlink/esd441.pdf?ts=1730589139389&ref_url=https%253A%252F%252Fapp.ultralibrarian.com%252F")
+    (property "compAreaTopHeight" 0.32)
+)
+
+

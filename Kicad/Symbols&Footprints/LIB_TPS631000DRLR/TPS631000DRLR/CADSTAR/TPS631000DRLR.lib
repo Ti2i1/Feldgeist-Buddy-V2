@@ -1,0 +1,16 @@
+.TPS631000DRLR :1 ;Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter
+SOTFL50P160X60-8N
+*STM U
+*NGS
+*PLB 1="VOUT" 2="LX2" 3="LX1" 4="VIN" 5="EN" 6="MODE" 7="GND" 8="FB"
+*MXP 8
+*DFN TPS631000DRLR
+~!Mouser Part Number (595-TPS631000DRLR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS631000DRLR)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265)
+~!Height (0.6mm)
+~!3D_Model (TPS631000DRLR)
+TPS631000DRLR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

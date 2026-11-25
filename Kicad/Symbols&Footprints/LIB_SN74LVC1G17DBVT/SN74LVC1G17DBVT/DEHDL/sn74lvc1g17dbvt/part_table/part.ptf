@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LVC1G17DBVT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "SN74LVC1G17DBVT" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "595-SN74LVC1G17DBVT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G17DBVT?qs=pajgIaoyDUjLdDGl76l3mA%3D%3D", "Single Schmitt-Trigger Buffer", "http://www.ti.com/lit/gpn/sn74lvc1g17", "1.45 mm"
+END_PART
+
+END.

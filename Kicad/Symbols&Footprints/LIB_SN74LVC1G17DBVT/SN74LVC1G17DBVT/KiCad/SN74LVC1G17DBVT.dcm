@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC1G17DBVT
+D Single Schmitt-Trigger Buffer
+K
+F http://www.ti.com/lit/gpn/sn74lvc1g17
+$ENDCMP
+#
+#End Doc Library

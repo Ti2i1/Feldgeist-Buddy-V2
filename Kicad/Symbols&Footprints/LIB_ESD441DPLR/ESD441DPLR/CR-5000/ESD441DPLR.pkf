@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ESD441DPLR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ESD441DPLR")
+        (spec "default")
+    )
+)

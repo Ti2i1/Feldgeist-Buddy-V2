@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "2450AT18D0100001E"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-07-20-08:27:42)
+    (mountForm default
+        (footprintRef "2450AT18D0100001E")
+        (spec "System")
+    )
+)

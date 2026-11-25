@@ -1,0 +1,16 @@
+.2450AT18D0100001E :1 ;2.4GHz Chip RF Antenna 2.4GHz ~ 2.5GHz 1.5dBi Solder Surface Mount
+"2450AT18D0100001E"
+*STM ANT
+*NGS
+*PLB 1="FEED/GND" 2="GND_1" 3="GND_2" 4="GND/FEED"
+*MXP 4
+*DFN 2450AT18D0100001E
+~!Mouser Part Number (609-2450AT18D0100001)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450AT18D0100001E?qs=jRuttqqUwMRyzkW5QhJruA%3D%3D)
+~!Manufacturer_Name (JOHANSON TECHNOLOGY)
+~!Manufacturer_Part_Number (2450AT18D0100001E)
+~!Link Datasheet (https://www.digikey.ph/en/products/detail/johanson-technology-inc/2450AT18D0100001E/4770685?msockid=39f1ec84d77b6f4428b7f904d6676eed)
+~!Height (1.3mm)
+~!3D_Model (2450AT18D0100001E)
+"2450AT18D0100001E"
+1.1!U 2.1!U 3.1!U 4.1!U 
