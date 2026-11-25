@@ -90,7 +90,7 @@ The schematic is divided into separate MCU, power and peripheral sheets. The sou
 <details>
 <summary>Schematic overview — Rev. A</summary>
 
-The screenshots show engineering revision A; some sheet headings reflect earlier design iterations. As disclosed in the grant application, the initial concept explored shot counting and motion logging. The current prototype is intended as a standalone keychain for general motion sensing, activity tracking and embedded experiments.
+The following schematics document engineering revision A of Feldgeist Buddy V2 (MGB — Mini Ghost Buddy). The current prototype is intended as a compact, programmable electronic companion for motion sensing, activity tracking, interactive applications, and embedded hardware experimentation.
 
 | System overview | Microcontroller |
 | --- | --- |
