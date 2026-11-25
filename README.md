@@ -23,7 +23,7 @@
 
 ## About the project
 
-**Feldgeist Buddy V2** is a personal embedded hardware project that combines motion sensing, a round display and interactive digital experiences in a compact handheld format. The goal is to create a programmable electronic companion that can be carried as a keychain and used for everyday experiments with sensors, user interfaces and embedded software.
+**Feldgeist Buddy V2** (MGB — Mini Ghost Buddy) is a personal embedded hardware project that combines motion sensing, a round display and interactive digital experiences in a compact handheld format. The goal is to create a programmable electronic companion that can be carried as a keychain and used for everyday experiments with sensors, user interfaces and embedded software.
 
 The project is inspired by folklore, particularly mysterious spirits, swamps and nature. The illustrated PCB is part of that identity: I wanted to design something with its own personality rather than just another development board.
 
@@ -88,17 +88,17 @@ The layout is the result of several iterations of component selection, placement
 The schematic is divided into separate MCU, power and peripheral sheets. The source files are maintained in the [`Kicad/`](Kicad/) directory.
 
 <details>
-<summary>Archived schematic screenshots — Rev. A</summary>
+<summary>Schematic overview — Rev. A</summary>
 
-These screenshots document the earlier engineering design. Some sheet headings and title blocks still contain legacy names, including the original Gun Buddy V2 name and an outdated MCU heading. The project originally explored shot counting and motion logging; the current prototype scope is a standalone civilian handheld for general motion sensing, activity tracking and embedded experiments.
+The screenshots show engineering revision A; some sheet headings reflect earlier design iterations. As disclosed in the grant application, the initial concept explored shot counting and motion logging. The current prototype is intended as a standalone keychain for general motion sensing, activity tracking and embedded experiments.
 
 | System overview | Microcontroller |
 | --- | --- |
-| ![Archived system overview](docs/images/SCHEMATIC_MAIN.png) | ![Archived MCU schematic](docs/images/SCHEMATIC_MCU.png) |
+| ![System overview](docs/images/SCHEMATIC_MAIN.png) | ![MCU schematic](docs/images/SCHEMATIC_MCU.png) |
 
 | Peripherals | Power |
 | --- | --- |
-| ![Archived peripheral schematic](docs/images/SCHEMATIC_PERIPHERALS.png) | ![Archived power schematic](docs/images/SCHEMATIC_POWER.png) |
+| ![Peripheral schematic](docs/images/SCHEMATIC_PERIPHERALS.png) | ![Power schematic](docs/images/SCHEMATIC_POWER.png) |
 
 </details>
 
@@ -119,7 +119,7 @@ These screenshots document the earlier engineering design. Some sheet headings a
 | 3D-printed enclosure | Planned |
 | Complete handheld testing | Pending |
 
-The next milestone is to manufacture a first prototype and establish whether the hardware works as intended. After that, I plan to develop the civilian companion applications and enclosure, learn from the first revision and document the results.
+The next milestone is to manufacture a first prototype and establish whether the hardware works as intended. After that, I plan to develop the companion applications and enclosure, learn from the first revision and document the results.
 
 ## Repository structure
 
